@@ -1,6 +1,6 @@
-import React, {useEffect,useState } from 'react'
-import appwriteService from "../../appwrite/config"
-import {Container , PostCard} from '../container/Container'
+import React, {useEffect, useState} from 'react'
+import appwriteService from "../../appwrite/config";
+import {Container, PostCard} from '../../components'
 
 function Home() {
     const [posts, setPosts] = useState([])
@@ -44,4 +44,3 @@ function Home() {
 }
 
 export default Home
-
