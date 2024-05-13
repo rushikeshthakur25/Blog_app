@@ -12,7 +12,7 @@ function LogoutBtn() {
     }
 
   return (
-    <button onClick={logoutHendler} className='inline-block px-6 py2 duration-200 hover:bg-blue-400 rounded-full'>Logout</button>
+    <button onClick={logoutHendler} className='inline-block px-6 py2 duration-200 rounded-full'>Logout</button>
   )
 }
 
